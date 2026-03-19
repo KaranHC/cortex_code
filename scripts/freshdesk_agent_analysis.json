@@ -1,0 +1,282 @@
+{
+  "agents": {
+    "69000306013": {
+      "name": "Adri\u00e1n Mart\u00ednez Azor\u00edn",
+      "email": "adrian@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000302063": {
+      "name": "Challey Legg",
+      "email": "challey@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000302934": {
+      "name": "Effy | Yu",
+      "email": "effy@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000264312": {
+      "name": "Golan Aharony",
+      "email": "golan@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000284780": {
+      "name": "Jovana Borkovic",
+      "email": "jovana@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000155512": {
+      "name": "Kenny | Revelator",
+      "email": "kenny@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000302643": {
+      "name": "Lena Djuricic",
+      "email": "lena@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000292143": {
+      "name": "Marija Ceki\u0107",
+      "email": "marija.cekic@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000300658": {
+      "name": "Matheus Telles",
+      "email": "matheus@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000284781": {
+      "name": "Maya Marija Jovic",
+      "email": "marija@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000303225": {
+      "name": "Meira Rahamim",
+      "email": "meira@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000285970": {
+      "name": "Milan Adamovi\u0107",
+      "email": "milan@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000305216": {
+      "name": "Naomi | Revelator",
+      "email": "naomi@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000281875": {
+      "name": "Nicolas Guasca",
+      "email": "nicolas.g@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000270732": {
+      "name": "Rebecca | Revelator",
+      "email": "rebecca.stary@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000305197": {
+      "name": "Rev Marketing",
+      "email": "marketing@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000306407": {
+      "name": "Revelator Inspection and YT Channel Ops",
+      "email": "inspection@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000302644": {
+      "name": "Revelator Support",
+      "email": "marko@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000306406": {
+      "name": "Revelator UGC Support",
+      "email": "ugcsupport@revelator.com",
+      "active": true,
+      "occasional": false
+    },
+    "69000283652": {
+      "name": "Similise | Revelator",
+      "email": "similise@revelator.com",
+      "active": true,
+      "occasional": false
+    }
+  },
+  "responder_tickets": {
+    "69087956474": 7
+  },
+  "agent_notes": {
+    "69046699027": 7,
+    "69000303225": 10,
+    "69000284781": 1,
+    "69000155512": 1,
+    "69000300658": 1
+  },
+  "article_authors": {
+    "69006981909": 53,
+    "69014464554": 13,
+    "69000270732": 31,
+    "69000281875": 1,
+    "69000264312": 7,
+    "69048925278": 7,
+    "69046699027": 27,
+    "69000305197": 9,
+    "69025339967": 1,
+    "69007168296": 6,
+    "69018563008": 15,
+    "69055229853": 1,
+    "69085265311": 2,
+    "69000302644": 1,
+    "69000155512": 1
+  },
+  "article_modifiers": {
+    "69055229853": 18,
+    "69014464554": 9,
+    "69006981909": 48,
+    "69046699027": 29,
+    "69000270732": 15,
+    "69072467743": 1,
+    "69000281875": 1,
+    "69000264312": 7,
+    "69048925278": 4,
+    "69000305197": 19,
+    "69025339967": 1,
+    "69000155512": 9,
+    "69018563008": 10,
+    "69007168296": 1,
+    "69085265311": 2,
+    "69000283652": 1
+  },
+  "group_distribution": {
+    "69000389237": 5
+  },
+  "rankings": [
+    {
+      "agent_id": 69000270732,
+      "name": "Rebecca | Revelator",
+      "email": "rebecca.stary@revelator.com",
+      "ticket_score": 0,
+      "note_score": 0,
+      "kb_score": 155,
+      "tickets": 0,
+      "notes": 0,
+      "articles": 31,
+      "total": 155
+    },
+    {
+      "agent_id": 69000305197,
+      "name": "Rev Marketing",
+      "email": "marketing@revelator.com",
+      "ticket_score": 0,
+      "note_score": 0,
+      "kb_score": 45,
+      "tickets": 0,
+      "notes": 0,
+      "articles": 9,
+      "total": 45
+    },
+    {
+      "agent_id": 69000264312,
+      "name": "Golan Aharony",
+      "email": "golan@revelator.com",
+      "ticket_score": 0,
+      "note_score": 0,
+      "kb_score": 35,
+      "tickets": 0,
+      "notes": 0,
+      "articles": 7,
+      "total": 35
+    },
+    {
+      "agent_id": 69000303225,
+      "name": "Meira Rahamim",
+      "email": "meira@revelator.com",
+      "ticket_score": 0,
+      "note_score": 30,
+      "kb_score": 0,
+      "tickets": 0,
+      "notes": 10,
+      "articles": 0,
+      "total": 30
+    },
+    {
+      "agent_id": 69000155512,
+      "name": "Kenny | Revelator",
+      "email": "kenny@revelator.com",
+      "ticket_score": 0,
+      "note_score": 3,
+      "kb_score": 5,
+      "tickets": 0,
+      "notes": 1,
+      "articles": 1,
+      "total": 8
+    },
+    {
+      "agent_id": 69000281875,
+      "name": "Nicolas Guasca",
+      "email": "nicolas.g@revelator.com",
+      "ticket_score": 0,
+      "note_score": 0,
+      "kb_score": 5,
+      "tickets": 0,
+      "notes": 0,
+      "articles": 1,
+      "total": 5
+    },
+    {
+      "agent_id": 69000302644,
+      "name": "Revelator Support",
+      "email": "marko@revelator.com",
+      "ticket_score": 0,
+      "note_score": 0,
+      "kb_score": 5,
+      "tickets": 0,
+      "notes": 0,
+      "articles": 1,
+      "total": 5
+    },
+    {
+      "agent_id": 69000284781,
+      "name": "Maya Marija Jovic",
+      "email": "marija@revelator.com",
+      "ticket_score": 0,
+      "note_score": 3,
+      "kb_score": 0,
+      "tickets": 0,
+      "notes": 1,
+      "articles": 0,
+      "total": 3
+    },
+    {
+      "agent_id": 69000300658,
+      "name": "Matheus Telles",
+      "email": "matheus@revelator.com",
+      "ticket_score": 0,
+      "note_score": 3,
+      "kb_score": 0,
+      "tickets": 0,
+      "notes": 1,
+      "articles": 0,
+      "total": 3
+    }
+  ]
+}

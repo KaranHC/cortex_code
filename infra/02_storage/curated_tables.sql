@@ -1,0 +1,41 @@
+CREATE OR REPLACE TABLE SNOWFLAKE_INTELLIGENCE.CURATED.DOCUMENTS (
+    document_id        VARCHAR(64) PRIMARY KEY,
+    source_system      VARCHAR(20) NOT NULL,
+    source_id          VARCHAR(200) NOT NULL,
+    source_url         VARCHAR(2000),
+    title              VARCHAR(1000) NOT NULL,
+    content            VARCHAR NOT NULL,
+    content_length     NUMBER,
+    team               VARCHAR(200),
+    topic              VARCHAR(200),
+    product_area       VARCHAR(200),
+    owner              VARCHAR(200),
+    backup_owner       VARCHAR(200),
+    tags               VARIANT,
+    status             VARCHAR(20) DEFAULT 'active',
+    created_at         TIMESTAMP_NTZ,
+    last_updated       TIMESTAMP_NTZ,
+    ingested_at        TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP(),
+    metadata           VARIANT,
+    UNIQUE (source_system, source_id)
+);
+
+CREATE OR REPLACE TABLE SNOWFLAKE_INTELLIGENCE.CURATED.DOCUMENT_CHUNKS (
+    chunk_id           VARCHAR(64) PRIMARY KEY,
+    document_id        VARCHAR(64) NOT NULL,
+    chunk_index        NUMBER NOT NULL,
+    content            VARCHAR NOT NULL,
+    content_length     NUMBER,
+    title              VARCHAR(1000),
+    team               VARCHAR(200),
+    topic              VARCHAR(200),
+    product_area       VARCHAR(200),
+    source_system      VARCHAR(20),
+    source_url         VARCHAR(2000),
+    owner              VARCHAR(200),
+    backup_owner       VARCHAR(200),
+    last_updated       TIMESTAMP_NTZ,
+    freshness_score    FLOAT,
+    status             VARCHAR(20) DEFAULT 'active',
+    created_at         TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP()
+);

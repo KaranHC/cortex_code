@@ -1,0 +1,1147 @@
+{
+  "user_map": {
+    "69094428207": {
+      "name": "Adri\u00e1n Mart\u00ednez Azor\u00edn",
+      "email": "adrian@revelator.com",
+      "agent_id": 69000306013,
+      "status": "active",
+      "role": "agent"
+    },
+    "69084415784": {
+      "name": "Challey Legg",
+      "email": "challey@revelator.com",
+      "agent_id": 69000302063,
+      "status": "active",
+      "role": "agent"
+    },
+    "69087221976": {
+      "name": "Effy | Yu",
+      "email": "effy@revelator.com",
+      "agent_id": 69000302934,
+      "status": "active",
+      "role": "agent"
+    },
+    "69033592749": {
+      "name": "Golan Aharony",
+      "email": "golan@revelator.com",
+      "agent_id": 69000264312,
+      "status": "active",
+      "role": "agent"
+    },
+    "69055794863": {
+      "name": "Jovana Borkovic",
+      "email": "jovana@revelator.com",
+      "agent_id": 69000284780,
+      "status": "active",
+      "role": "agent"
+    },
+    "69007168308": {
+      "name": "Kenny | Revelator",
+      "email": "kenny@revelator.com",
+      "agent_id": 69000155512,
+      "status": "active",
+      "role": "agent"
+    },
+    "69086373234": {
+      "name": "Lena Djuricic",
+      "email": "lena@revelator.com",
+      "agent_id": 69000302643,
+      "status": "active",
+      "role": "agent"
+    },
+    "69068442996": {
+      "name": "Marija Ceki\u0107",
+      "email": "marija.cekic@revelator.com",
+      "agent_id": 69000292143,
+      "status": "active",
+      "role": "agent"
+    },
+    "69082354196": {
+      "name": "Matheus Telles",
+      "email": "matheus@revelator.com",
+      "agent_id": 69000300658,
+      "status": "active",
+      "role": "agent"
+    },
+    "69055794934": {
+      "name": "Maya Marija Jovic",
+      "email": "marija@revelator.com",
+      "agent_id": 69000284781,
+      "status": "active",
+      "role": "agent"
+    },
+    "69087956474": {
+      "name": "Meira Rahamim",
+      "email": "meira@revelator.com",
+      "agent_id": 69000303225,
+      "status": "active",
+      "role": "agent"
+    },
+    "69060197484": {
+      "name": "Milan Adamovi\u0107",
+      "email": "milan@revelator.com",
+      "agent_id": 69000285970,
+      "status": "active",
+      "role": "agent"
+    },
+    "69056003916": {
+      "name": "Naomi | Revelator",
+      "email": "naomi@revelator.com",
+      "agent_id": 69000305216,
+      "status": "active",
+      "role": "agent"
+    },
+    "69038383219": {
+      "name": "Nicolas Guasca",
+      "email": "nicolas.g@revelator.com",
+      "agent_id": 69000281875,
+      "status": "active",
+      "role": "agent"
+    },
+    "69038536019": {
+      "name": "Rebecca | Revelator",
+      "email": "rebecca.stary@revelator.com",
+      "agent_id": 69000270732,
+      "status": "active",
+      "role": "agent"
+    },
+    "69085965847": {
+      "name": "Rev Marketing",
+      "email": "marketing@revelator.com",
+      "agent_id": 69000305197,
+      "status": "active",
+      "role": "agent"
+    },
+    "69095458743": {
+      "name": "Revelator Inspection and YT Channel Ops",
+      "email": "inspection@revelator.com",
+      "agent_id": 69000306407,
+      "status": "active",
+      "role": "agent"
+    },
+    "69060533116": {
+      "name": "Revelator Support",
+      "email": "marko@revelator.com",
+      "agent_id": 69000302644,
+      "status": "active",
+      "role": "agent"
+    },
+    "69095458734": {
+      "name": "Revelator UGC Support",
+      "email": "ugcsupport@revelator.com",
+      "agent_id": 69000306406,
+      "status": "active",
+      "role": "agent"
+    },
+    "69054057343": {
+      "name": "Similise | Revelator",
+      "email": "similise@revelator.com",
+      "agent_id": 69000283652,
+      "status": "active",
+      "role": "agent"
+    },
+    "69007178017": {
+      "name": "Alain Prasquier",
+      "email": "alain@revelator.com",
+      "agent_id": 69000275162,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69046698966": {
+      "name": "Claudia | Revelator",
+      "email": "claudia.garcia@revelator.com",
+      "agent_id": 69000279159,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69006981912": {
+      "name": "Customer Service",
+      "email": "custserv@freshdesk.com",
+      "agent_id": 69000149890,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69062967931": {
+      "name": "Eric Denis",
+      "email": "eric@revelator.com",
+      "agent_id": 69000288131,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69095071696": {
+      "name": "Euniz L",
+      "email": "euniz@revelator.com",
+      "agent_id": 69000306293,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69055229853": {
+      "name": "Jo Friedman",
+      "email": "jo@revelator.com",
+      "agent_id": 69000288103,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69007168296": {
+      "name": "Lulu | Revelator",
+      "email": "lulu@revelator.com",
+      "agent_id": 69000155510,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69030414317": {
+      "name": "Malka Lehman",
+      "email": "malka@revelator.com",
+      "agent_id": 69000297426,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69025339967": {
+      "name": "Maria | Revelator",
+      "email": "maria@revelator.com",
+      "agent_id": 69000252592,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69095066041": {
+      "name": "Meg M",
+      "email": "meg@revelator.com",
+      "agent_id": 69000306292,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69048925278": {
+      "name": "Miriam Lottner",
+      "email": "miriam@revelator.com",
+      "agent_id": 69000281586,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69091716553": {
+      "name": "Nikita Shenkar",
+      "email": "nikita@revelator.com",
+      "agent_id": 69000304839,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69014464554": {
+      "name": "Rafael | Revelator",
+      "email": "rafael@revelator.com",
+      "agent_id": 69000265235,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69079602188": {
+      "name": "Vasil Sabev",
+      "email": "vasil@revelator.com",
+      "agent_id": 69000302430,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69085265311": {
+      "name": "Viraj | Revelator",
+      "email": "viraj@revelator.com",
+      "agent_id": 69000302664,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69050758617": {
+      "name": "Yiska Kopstein",
+      "email": "yiska@revelator.com",
+      "agent_id": 69000287433,
+      "status": "deleted",
+      "role": "agent"
+    },
+    "69041400321": {
+      "name": "Zvi Rotsztein",
+      "email": "zvi.rotsztein@revelator.com",
+      "agent_id": 69000289972,
+      "status": "deleted",
+      "role": "agent"
+    }
+  },
+  "expertise": {
+    "69046699027": {
+      "name": "User-69046699027",
+      "email": "?",
+      "status": "?",
+      "role": "?",
+      "kb_categories": {
+        "FAQ": 6,
+        "Onboarding to Revelator Pro": 1,
+        "Creating & Updating Releases": 7,
+        "Distribution": 11,
+        "Rights Management & Metadata": 2,
+        "Analytics": 1,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 3,
+        "Getting Paid by Revelator": 1,
+        "Branding and White Labeling": 2,
+        "User Accounts": 4
+      },
+      "ticket_topics": {
+        "Unclassified": 2,
+        "Problem": 1,
+        "General Support": 4
+      },
+      "total_kb": 38,
+      "total_tickets": 7,
+      "combined": 45
+    },
+    "69082354196": {
+      "name": "Matheus Telles",
+      "email": "matheus@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {},
+      "ticket_topics": {
+        "General Support": 1
+      },
+      "total_kb": 0,
+      "total_tickets": 1,
+      "combined": 1
+    },
+    "69006981909": {
+      "name": "User-69006981909",
+      "email": "?",
+      "status": "?",
+      "role": "?",
+      "kb_categories": {
+        "FAQ": 2,
+        "Creating & Updating Releases": 7,
+        "Distribution": 34,
+        "Rights Management & Metadata": 10,
+        "Analytics": 3,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 6,
+        "Branding and White Labeling": 1,
+        "User Accounts": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 64,
+      "total_tickets": 0,
+      "combined": 64
+    },
+    "69085965847": {
+      "name": "Rev Marketing",
+      "email": "marketing@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 2,
+        "Creating & Updating Releases": 3,
+        "Distribution": 5,
+        "Rights Management & Metadata": 2,
+        "Analytics": 1,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 2,
+        "User Accounts": 4
+      },
+      "ticket_topics": {},
+      "total_kb": 19,
+      "total_tickets": 0,
+      "combined": 19
+    },
+    "69055229853": {
+      "name": "Jo Friedman",
+      "email": "jo@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 1,
+        "Creating & Updating Releases": 2,
+        "Distribution": 3,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 8,
+        "Getting Paid by Revelator": 5
+      },
+      "ticket_topics": {},
+      "total_kb": 19,
+      "total_tickets": 0,
+      "combined": 19
+    },
+    "69085265311": {
+      "name": "Viraj | Revelator",
+      "email": "viraj@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "Distribution": 2
+      },
+      "ticket_topics": {},
+      "total_kb": 2,
+      "total_tickets": 0,
+      "combined": 2
+    },
+    "69072467743": {
+      "name": "User-69072467743",
+      "email": "?",
+      "status": "?",
+      "role": "?",
+      "kb_categories": {
+        "FAQ": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 1,
+      "total_tickets": 0,
+      "combined": 1
+    },
+    "69007168296": {
+      "name": "Lulu | Revelator",
+      "email": "lulu@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "Creating & Updating Releases": 2,
+        "Distribution": 2,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 1,
+        "Getting Paid by Revelator": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 6,
+      "total_tickets": 0,
+      "combined": 6
+    },
+    "69014464554": {
+      "name": "Rafael | Revelator",
+      "email": "rafael@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 1,
+        "Onboarding to Revelator Pro": 1,
+        "Creating & Updating Releases": 1,
+        "Distribution": 1,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 11,
+        "Getting Paid by Revelator": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 16,
+      "total_tickets": 0,
+      "combined": 16
+    },
+    "69033592749": {
+      "name": "Golan Aharony",
+      "email": "golan@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 3,
+        "Distribution": 3,
+        "Rights Management & Metadata": 4
+      },
+      "ticket_topics": {},
+      "total_kb": 10,
+      "total_tickets": 0,
+      "combined": 10
+    },
+    "69007168308": {
+      "name": "Kenny | Revelator",
+      "email": "kenny@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "Onboarding to Revelator Pro": 1,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 8
+      },
+      "ticket_topics": {
+        "General Support": 1
+      },
+      "total_kb": 9,
+      "total_tickets": 1,
+      "combined": 10
+    },
+    "69025339967": {
+      "name": "Maria | Revelator",
+      "email": "maria@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 1,
+      "total_tickets": 0,
+      "combined": 1
+    },
+    "69018563008": {
+      "name": "User-69018563008",
+      "email": "?",
+      "status": "?",
+      "role": "?",
+      "kb_categories": {
+        "Creating & Updating Releases": 1,
+        "Distribution": 6,
+        "Data Pro - Business Intelligence for independents": 7,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 2,
+        "Branding and White Labeling": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 17,
+      "total_tickets": 0,
+      "combined": 17
+    },
+    "69038536019": {
+      "name": "Rebecca | Revelator",
+      "email": "rebecca.stary@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 5,
+        "Creating & Updating Releases": 2,
+        "Distribution": 5,
+        "Rights Management & Metadata": 2,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 2,
+        "Getting Paid by Revelator": 16
+      },
+      "ticket_topics": {},
+      "total_kb": 32,
+      "total_tickets": 0,
+      "combined": 32
+    },
+    "69048925278": {
+      "name": "Miriam Lottner",
+      "email": "miriam@revelator.com",
+      "status": "deleted",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 1,
+        "Distribution": 1,
+        "Revenue Reports, Royalty Statements & Payee Payouts": 6,
+        "Getting Paid by Revelator": 2
+      },
+      "ticket_topics": {},
+      "total_kb": 10,
+      "total_tickets": 0,
+      "combined": 10
+    },
+    "69038383219": {
+      "name": "Nicolas Guasca",
+      "email": "nicolas.g@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "FAQ": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 1,
+      "total_tickets": 0,
+      "combined": 1
+    },
+    "69055794934": {
+      "name": "Maya Marija Jovic",
+      "email": "marija@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {},
+      "ticket_topics": {
+        "Unclassified": 1
+      },
+      "total_kb": 0,
+      "total_tickets": 1,
+      "combined": 1
+    },
+    "69087956474": {
+      "name": "Meira Rahamim",
+      "email": "meira@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {},
+      "ticket_topics": {
+        "Problem": 1,
+        "Unclassified": 6,
+        "General Support": 9,
+        "Request": 1
+      },
+      "total_kb": 0,
+      "total_tickets": 17,
+      "combined": 17
+    },
+    "69060533116": {
+      "name": "Revelator Support",
+      "email": "marko@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "Revenue Reports, Royalty Statements & Payee Payouts": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 1,
+      "total_tickets": 0,
+      "combined": 1
+    },
+    "69054057343": {
+      "name": "Similise | Revelator",
+      "email": "similise@revelator.com",
+      "status": "active",
+      "role": "agent",
+      "kb_categories": {
+        "Rights Management & Metadata": 1
+      },
+      "ticket_topics": {},
+      "total_kb": 1,
+      "total_tickets": 0,
+      "combined": 1
+    }
+  },
+  "topic_to_experts": {
+    "KB: FAQ": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        6
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        2
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        2
+      ],
+      [
+        69055229853,
+        "Jo Friedman",
+        "jo@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69072467743,
+        "User-69072467743",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69033592749,
+        "Golan Aharony",
+        "golan@revelator.com",
+        "active",
+        3
+      ],
+      [
+        69025339967,
+        "Maria | Revelator",
+        "maria@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        5
+      ],
+      [
+        69048925278,
+        "Miriam Lottner",
+        "miriam@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69038383219,
+        "Nicolas Guasca",
+        "nicolas.g@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "KB: Onboarding to Revelator Pro": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69007168308,
+        "Kenny | Revelator",
+        "kenny@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "KB: Creating & Updating Releases": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        7
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        7
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        3
+      ],
+      [
+        69055229853,
+        "Jo Friedman",
+        "jo@revelator.com",
+        "deleted",
+        2
+      ],
+      [
+        69007168296,
+        "Lulu | Revelator",
+        "lulu@revelator.com",
+        "deleted",
+        2
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69018563008,
+        "User-69018563008",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        2
+      ]
+    ],
+    "KB: Distribution": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        11
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        34
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        5
+      ],
+      [
+        69055229853,
+        "Jo Friedman",
+        "jo@revelator.com",
+        "deleted",
+        3
+      ],
+      [
+        69085265311,
+        "Viraj | Revelator",
+        "viraj@revelator.com",
+        "deleted",
+        2
+      ],
+      [
+        69007168296,
+        "Lulu | Revelator",
+        "lulu@revelator.com",
+        "deleted",
+        2
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69033592749,
+        "Golan Aharony",
+        "golan@revelator.com",
+        "active",
+        3
+      ],
+      [
+        69018563008,
+        "User-69018563008",
+        "?",
+        "?",
+        6
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        5
+      ],
+      [
+        69048925278,
+        "Miriam Lottner",
+        "miriam@revelator.com",
+        "deleted",
+        1
+      ]
+    ],
+    "KB: Rights Management & Metadata": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        2
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        10
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        2
+      ],
+      [
+        69033592749,
+        "Golan Aharony",
+        "golan@revelator.com",
+        "active",
+        4
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        2
+      ],
+      [
+        69054057343,
+        "Similise | Revelator",
+        "similise@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "KB: Analytics": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        3
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "KB: Revenue Reports, Royalty Statements & Payee Payouts": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        3
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        6
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        2
+      ],
+      [
+        69055229853,
+        "Jo Friedman",
+        "jo@revelator.com",
+        "deleted",
+        8
+      ],
+      [
+        69007168296,
+        "Lulu | Revelator",
+        "lulu@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        11
+      ],
+      [
+        69007168308,
+        "Kenny | Revelator",
+        "kenny@revelator.com",
+        "active",
+        8
+      ],
+      [
+        69018563008,
+        "User-69018563008",
+        "?",
+        "?",
+        2
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        2
+      ],
+      [
+        69048925278,
+        "Miriam Lottner",
+        "miriam@revelator.com",
+        "deleted",
+        6
+      ],
+      [
+        69060533116,
+        "Revelator Support",
+        "marko@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "KB: Getting Paid by Revelator": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69055229853,
+        "Jo Friedman",
+        "jo@revelator.com",
+        "deleted",
+        5
+      ],
+      [
+        69007168296,
+        "Lulu | Revelator",
+        "lulu@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69014464554,
+        "Rafael | Revelator",
+        "rafael@revelator.com",
+        "deleted",
+        1
+      ],
+      [
+        69038536019,
+        "Rebecca | Revelator",
+        "rebecca.stary@revelator.com",
+        "active",
+        16
+      ],
+      [
+        69048925278,
+        "Miriam Lottner",
+        "miriam@revelator.com",
+        "deleted",
+        2
+      ]
+    ],
+    "KB: Branding and White Labeling": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        2
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69018563008,
+        "User-69018563008",
+        "?",
+        "?",
+        1
+      ]
+    ],
+    "KB: User Accounts": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        4
+      ],
+      [
+        69006981909,
+        "User-69006981909",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69085965847,
+        "Rev Marketing",
+        "marketing@revelator.com",
+        "active",
+        4
+      ]
+    ],
+    "Tickets: Unclassified": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        2
+      ],
+      [
+        69055794934,
+        "Maya Marija Jovic",
+        "marija@revelator.com",
+        "active",
+        1
+      ],
+      [
+        69087956474,
+        "Meira Rahamim",
+        "meira@revelator.com",
+        "active",
+        6
+      ]
+    ],
+    "Tickets: Problem": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        1
+      ],
+      [
+        69087956474,
+        "Meira Rahamim",
+        "meira@revelator.com",
+        "active",
+        1
+      ]
+    ],
+    "Tickets: General Support": [
+      [
+        69046699027,
+        "User-69046699027",
+        "?",
+        "?",
+        4
+      ],
+      [
+        69082354196,
+        "Matheus Telles",
+        "matheus@revelator.com",
+        "active",
+        1
+      ],
+      [
+        69007168308,
+        "Kenny | Revelator",
+        "kenny@revelator.com",
+        "active",
+        1
+      ],
+      [
+        69087956474,
+        "Meira Rahamim",
+        "meira@revelator.com",
+        "active",
+        9
+      ]
+    ],
+    "KB: Data Pro - Business Intelligence for independents": [
+      [
+        69018563008,
+        "User-69018563008",
+        "?",
+        "?",
+        7
+      ]
+    ],
+    "Tickets: Request": [
+      [
+        69087956474,
+        "Meira Rahamim",
+        "meira@revelator.com",
+        "active",
+        1
+      ]
+    ]
+  }
+}

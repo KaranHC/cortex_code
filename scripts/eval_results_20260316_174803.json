@@ -1,0 +1,271 @@
+[
+  {
+    "summary": {
+      "agent": "primary",
+      "agent_fqn": "SNOWFLAKE_INTELLIGENCE.AGENTS.KNOWLEDGE_ASSISTANT",
+      "total_questions": 18,
+      "correct": 16,
+      "partial": 1,
+      "incorrect": 1,
+      "errors": 0,
+      "accuracy_pct": 91.7,
+      "avg_latency_ms": 22549
+    },
+    "details": [
+      {
+        "question_id": 1,
+        "question": "What is Revelator and what does it do?",
+        "expected_answer": "Revelator is a music IP platform that unifies content management, digital distribution, rights administration, income tracking, analytics, and royalty accounting. It serves record labels, distributors, artist management businesses, and Merlin members.",
+        "category": "core",
+        "agent_answer": "\nRevelator is a **best-in-class music IP platform** that unifies multiple functions for music businesses in one powerful environment.\n\n## Core Capabilities\n\n- **Content Management** \u2013 Organize and manage your music catalog and metadata\n- **Digital Distribution** \u2013 Distribute music to DSPs (streaming platforms), either via Revelator's own deals, direct DSP deals, or on top of an existing distribution setup\n- **Rights Administration** \u2013 Manage IP ownership, splits, and rights across channels\n- **Royalty Accounting** \u2013 Track income and calculate royalty payouts\n- **Analytics & Reporting** \u2013 Access streaming data and financial reports\n- **Web3 / NFTs** \u2013 Mint, manage, and sell NFT collectibles via a built-in storefront; supports crypto and credit card payments\n- **Revelator Wallet** \u2013 A non-custodial digital wallet for artists to collect royalties on-chain in stablecoins, manage tokens, and access DeFi/Web3 features\n\n## Who It's For\n\nRevelator serves **record labels, distributors, artist management companies, and Merlin members** looking to streamline operations and grow their music business.\n\n## Mission\n\nRevelator is the **leading provider of digital IP infrastructure** to music companies worldwide, reshaping digital ownership to increase speed, accuracy, and transparency in rights management, digital supply chain, and royalty distribution.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 28157,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: Revelator is a music IP platform that unifies content management, digital distribution, rights administration, income tracking, analytics, and royalty accounting, and serves record labels, distributors, artist management businesses, and Merlin members. The agent provides additional details (Web3/NFTs, Revelator Wallet) which are minor extras but don't detract from the core accuracy."
+      },
+      {
+        "question_id": 2,
+        "question": "How do royalty splits work in Revelator?",
+        "expected_answer": "Revelator Wallet supports Royalty Splits created using the Original Works Protocol. Royalty Splits allow rights holders to receive an allocated split percentage of royalties. Smart contracts manage the splits automatically.",
+        "category": "core",
+        "agent_answer": "\nRoyalty Splits in Revelator automate the distribution of digital royalties to multiple parties using blockchain-based smart contracts, powered by Revelator's **Original Works Protocol**.\n\n## How It Works\n\nRoyalty Splits are smart contracts that automatically distribute royalty payments in **USDC** (a stablecoin mirroring the US dollar) according to predefined percentage shares.\n\n**Example:** If 3 rights holders share a track split:\n- Rights Holder 1: 50% \u2192 receives 625 USDC\n- Rights Holder 2: 30% \u2192 receives 375 USDC\n- Rights Holder 3: 20% \u2192 receives 250 USDC\n\n...on a 1,250 USDC royalty payment, the contract distributes automatically.\n\n## Who Is It For?\n- **Artists, Songwriters, Rights Holders** \u2013 receive royalties onchain and self-manage assets\n- **Labels, Distributors, Royalty Admins** \u2013 orchestrate complex royalty settlements to payees in USDC\n\n## Prerequisites for Creating a Royalty Split\nRoyalty Splits can currently only be created for **tracks** (not other asset types). The track must:\n1. Have completed metadata and a valid ISRC\n2. Be distributed live under Revelator's deals to at least Apple Music or Spotify\n3. Have no flagged streams or fraud incidents\n4. Not appear on any track-level contracts\n\nYou also need **Editor permissions** for Catalog & Asset Management and Royalty Accounting, and must have Royalty Splits enabled on your account by contacting support.\n\n## Payee Wallets & Royalty Vaults\nWhen adding payees to a Royalty Split:\n- If a payee **already has a wallet**, their address is automatically used.\n- If a payee **doesn't have a wallet**, a **Royalty Vault** (an onchain smart contract) is created to store their share until they claim it.\n\nIf a vault remains unclaimed, the admin can transfer the balance to another wallet address or move it to traditional payment rails (e.g., PayPal or Tipalti).\n\n## Royalty Splits via Contracts (Traditional)\nBeyond the blockchain feature, royalty splits are also managed through **Contracts** in Revelator. A Contract defines:\n- **Terms** \u2013 payout rates by DSP, territory, channel, and format\n- **Payees** \u2013 each payee's share percentage\n- **Assets** \u2013 which assets (account, label, artist, release, or track level) the contract applies to\n\n> \u26a0\ufe0f This feature is currently in **beta**. To request access, contact **support@revelator.com**.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 26288,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: Revelator Wallet supports Royalty Splits, they use the Original Works Protocol, rights holders receive allocated split percentages, and smart contracts manage the splits automatically. The agent provides significantly more detail, but all core points are covered correctly."
+      },
+      {
+        "question_id": 3,
+        "question": "What is the process for approving royalty statements?",
+        "expected_answer": "The approval process involves reviewing statement data, checking for errors in metadata or payout configurations, and updating payee information or percentages if needed before final approval.",
+        "category": "core",
+        "agent_answer": "\n## Approving Royalty Statements\n\nApproving a statement is a crucial step in finalizing revenue calculations and distributing royalties. Once approved, a statement is **locked and cannot be modified** unless unapproved.\n\n---\n\n### Step-by-Step: Approving a Single Statement\n\n1. **Review the Statement** \u2013 Carefully inspect the generated statement for accuracy. Verify revenue amounts, payees, and any associated data.\n2. **Click \"Approve\"** \u2013 Click the **Approve** button in the statement management dashboard.\n3. **Confirm** \u2013 Select **\"Yes\"** in the confirmation prompt. The statement will be marked as **\"Approved\"** and locked from further changes.\n\n---\n\n### Batch Approving Multiple Statements\n\n1. Select multiple statements using **checkboxes** or a multi-select tool.\n2. Click **\"Approve Selected\"**.\n3. Confirm approval for all selected statements.\n\n---\n\n### Unapproving a Statement (If Corrections Are Needed)\n\nIf errors are found after approval, you can unapprove a statement:\n\n1. Navigate to the **\"Approved Statements\"** section and locate the statement.\n2. Click **\"Unapprove\"** and confirm with **\"Yes\"**. The statement reverts to **\"Unapproved/Draft\"** status.\n3. **Edit** \u2013 Reprocess the royalty run to make corrections (e.g., missing revenue, calculation errors, data corrections, payee updates).\n4. **Re-Approve** \u2013 Follow the standard approval process to lock the statement again.\n\n---\n\n### Common Reasons to Unapprove\n\n- **Missed Revenue** \u2013 Some income sources were omitted.\n- **Calculation Errors** \u2013 Discrepancies in royalty splits or revenue allocations.\n- **Data Corrections** \u2013 Errors in metadata or payout configurations.\n- **Updating Payee Information** \u2013 Adjusting payees or percentages after initial approval.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 28748,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: reviewing statement data, checking for errors in metadata or payout configurations, and updating payee information or percentages if needed before final approval. The agent provides additional detail about the step-by-step process and batch approving, but the core concepts are all present."
+      },
+      {
+        "question_id": 4,
+        "question": "How does Revelator match catalog to DSP revenue?",
+        "expected_answer": "When DSP sale reports arrive by manual upload or automatic ingestion, Revelator processes each transaction line searching for a corresponding track in the catalog. Unmatched lines appear as Unmatched in the report summary requiring user action.",
+        "category": "core",
+        "agent_answer": "\nRevelator matches catalog to DSP revenue through an automated matching engine called **the Matcher**, which processes each transaction line in incoming DSP sale reports (whether auto-ingested or manually uploaded) and attempts to link it to an existing track in your catalog.\n\n## How the Matching Works\n\n### Match Fields (in priority order)\nThe system checks these fields in order, weighting them accordingly:\n\n1. **ISRC** (highest priority) \u2014 An exact ISRC match will auto-link the line, even if track/artist names differ slightly.\n2. **Track Title**\n3. **Artist Name**\n4. **Release/Album Title** (optional secondary check)\n\n### Exact vs. Fuzzy Matching\n- **Exact match**: ISRC and/or metadata precisely align with a catalog entry \u2192 automatically linked, no manual intervention needed.\n- **Fuzzy match**: Minor spelling/formatting differences (e.g., \"ft.\" vs. \"feat.\") \u2192 system suggests a match with a confidence score; user confirms or rejects.\n\n### Confidence Score\nThe system assigns a confidence level to each potential match. Lines below a certain threshold are **flagged for user review**.\n\n---\n\n## Handling Unmatched Lines\nLines that fail to meet match criteria appear as **\"Unmatched\"** and require user action:\n\n1. **Confirm a fuzzy suggestion** \u2014 Accept a system-suggested match.\n2. **Manually search** \u2014 Find the correct track by name, ISRC, or release.\n3. **Approve as new track** \u2014 If the line represents a genuinely new track, approve it to create a new catalog entry.\n4. **Reprocess** \u2014 After updating catalog metadata (e.g., adding a missing ISRC), trigger a reprocess so the system re-attempts matching.\n\n---\n\n## Key Tips\n- **Batch matching** is supported \u2014 multiple lines with slight variations can be matched to the same track at once.\n- **Matching does not alter catalog metadata** \u2014 linking a line to a track won't overwrite your existing track data.\n- **Clean metadata = fewer unmatched lines** \u2014 maintaining accurate ISRCs and consistent track/artist names is the best way to minimize manual work.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 28443,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: DSP sale reports arrive via manual upload or automatic ingestion, Revelator processes each transaction line searching for a corresponding track in the catalog, and unmatched lines appear as 'Unmatched' requiring user action. The agent provides additional detail about matching mechanisms (ISRC priority, fuzzy matching, confidence scores) which are minor extra details that don't contradict the expected answer."
+      },
+      {
+        "question_id": 5,
+        "question": "What are the steps to distribute your catalogue to stores?",
+        "expected_answer": "You need to provide delivery history showing where your catalog has been delivered before. Many distributors need this information to ensure successful migration of your catalog.",
+        "category": "core",
+        "agent_answer": "\n\nHere are the steps to distribute your catalogue to stores using Revelator:\n\n---\n\n## Step 1: Ingest Your Catalog into Revelator\n\nYour catalog must exist in Revelator's system before distribution. There are four ingestion methods:\n\n1. **DDEX compliant packages** \u2013 Deliver via Content Providers\n2. **Metadata & media files** \u2013 Import via Spreadsheet/Google Sheet\n3. **Revelator Pro UI** \u2013 Guided during onboarding\n4. **Revelator API** \u2013 For API customers only\n\n---\n\n## Step 2: Provide Delivery History\n\nBefore migration, share delivery history from your previous distributor, including:\n\n- UPC\n- The service/DSP name\n- Whether the release is still live on those DSPs\n\n---\n\n## Step 3: Set Up Your Supply Chain\n\n1. Complete the **Distribution Deals Worksheet** \u2014 specify which deals you'll use for each DSP.\n2. If you have existing catalog delivered to a DSP, list the corresponding UPCs.\n3. \u26a0\ufe0f Your account will remain **BLOCKED** from distributing until this worksheet is completed and shared with the Revelator team.\n\n> If switching from a previous distributor, **coordinate with Revelator before issuing any takedowns** to avoid loss of listings, reviews, shares, and play counts.\n\n---\n\n## Step 4: Prepare for Redelivery\n\nPrepare a spreadsheet organized by UPC or Revelator Release ID, including:\n\n- Territorial restrictions (if applicable)\n- Non-default pricing\n- DSPs to exclude from redelivery\n- Spotify Artist URIs and Apple Artist IDs (where applicable)\n\n---\n\n## Step 5: Ensure UGC DSP Eligibility (if applicable)\n\nIf distributing to UGC DSPs (e.g., YouTube, Facebook/Meta), tag each track with the relevant **Origins and Properties**. Failing to comply can result in your account being blocked from these DSPs.\n\n---\n\n## Step 6: Distribute Your Release\n\nFrom within the Revelator platform:\n\n1. Go to the main navigation menu \u2192 click **Assets**\n2. Select the asset you want to distribute\n3. Click on the **Distribution** tab\n4. Click **Distribute Now**\n5. Choose your **Release Date** (as soon as possible or a specific date)\n\nRevelator supports all major DSPs including iTunes/Apple Music, Spotify, Amazon, YouTube Music, Pandora, Tidal, Deezer, Shazam, and 20+ more.\n\n---\n\n## Step 7: Monitor Distribution Status\n\n- \u2705 **Distributed** \u2013 Green indicator\n- \ud83d\udfe1 **In Delivery: Packaging** \u2013 Yellow indicator\n- \ud83d\udd34 **Distribution Error** \u2013 Red indicator; click *View Issues* to resolve\n\nFor any questions, contact **support@revelator.com** or your **Customer Success Manager**.\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 23208,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer includes the key information from the expected answer - specifically Step 2 explicitly mentions providing delivery history showing where the catalog has been delivered before (UPC, service/DSP name, whether release is still live), which is the core requirement mentioned in the expected answer. The agent provides additional detailed steps beyond what the expected answer covers, but the critical information about delivery history for successful catalog migration is present."
+      },
+      {
+        "question_id": 6,
+        "question": "What is the Revelator Wallet?",
+        "expected_answer": "The Revelator Wallet is a non-custodial digital wallet allowing artists to collect royalties and get paid daily in stable coins. It supports creating digital assets, managing splits with smart contracts, collecting on-chain royalties, minting NFTs, and DeFi integration.",
+        "category": "core",
+        "agent_answer": "\n\n## What is the Revelator Wallet?\n\nThe **Revelator Wallet** is a **non-custodial digital wallet** designed for artists and creators to collect royalties and manage digital assets on the blockchain. It is described as the first and only multi-chain wallet for music and media assets, built around the creator experience.\n\n### Key Capabilities\n\nWith the Revelator Wallet, users can:\n- **Create digital assets** and issue tokens\n- **Manage splits** with smart contracts\n- **Collect on-chain royalties** in stable coins (e.g., USDC)\n- **Request advances** and get paid in real-time\n- **Mint, drop, and sell NFTs** across marketplaces\n- **Create NFT storefronts** for web3 digital commerce\n- **Invest, borrow, and lend** with DeFi protocols\n\n### Supported Blockchains & Assets\n\nThe Wallet is **multi-chain**, supporting EVM-compatible blockchains:\n- **Networks**: Base, Polygon (plus their testnets)\n- **Assets**: ETH, POL (previously MATIC), USDC, Royalty Splits, Group Splits\n\n### Who Is It For?\n\nThe Wallet is open to **anyone creating IP, managing creative works, or collecting royalties** as a participant in the income stream of a creative work.\n\n### Getting Started\n\nUsers can download the Revelator Wallet from the **App Store or Google Play**, and can either create a new wallet or import an existing one (e.g., from MetaMask, Trezor, or Coinbase Wallet).\n\nFor support, contact **support@revelator.com**.\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 18514,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: non-custodial digital wallet, artists collecting royalties, paid in stable coins, creating digital assets, managing splits with smart contracts, collecting on-chain royalties, minting NFTs, and DeFi integration. The agent provides additional details beyond the expected answer, but all core points are covered accurately."
+      },
+      {
+        "question_id": 7,
+        "question": "What metadata fields are required for a music release?",
+        "expected_answer": "Release-level metadata includes metadata language, release title, and other comprehensive details. The Metadata section provides detailed information about the release including release-level and track-level metadata fields.",
+        "category": "core",
+        "agent_answer": "\nHere are the required metadata fields for a music release on Revelator:\n\n## Release-Level Metadata\n- **Metadata Language** \u2013 The language used for all metadata fields\n- **Release Title & Version** \u2013 Official release name and versioning details (e.g., Deluxe, Remastered)\n- **Primary & Secondary Genre** \u2013 Main and secondary genre classifications\n- **Catalog ID** \u2013 Internal identifier used by the label or distributor\n- **UPC (Universal Product Code)** \u2013 Unique 12-digit code required for tracking, sales reporting, and DSP delivery\n- **Copyright Information** \u2013 Copyright holder name and year\n\n## Track-Level Metadata\n- **Track Title** \u2013 Track name including version or content tags (e.g., explicit)\n- **Title Version** \u2013 Version or content tag details\n- **Language** \u2013 Primary language of the track's lyrics or spoken content\n- **Track Origin** \u2013 Composition type: Original Work, Cover Song, or Public Domain\n- **Track Properties** \u2013 Nature of the recording (e.g., Remix, Samples, Compilation, AI)\n- **ISWC** \u2013 International Standard Musical Work Code for identifying compositions\n- **ISRC** \u2013 Required for track identification, especially critical during migrations\n- **Preview/Clip Start Time** \u2013 Highlights the most engaging part for UGC platforms\n- **Lyrics** \u2013 Field for entering or managing track lyrics\n- **Primary Artist** \u2013 At least one contributor must be marked as Primary Artist\n\n## Additional Asset Requirements\n- **Audio files**: WAV format (16\u201324-bit, 44.1\u2013192 kHz, stereo)\n- **Artwork**: JPG, square (minimum 3000\u00d73000 px), RGB color mode\n- **Rights & Licensing**: Ownership or license to distribute, including cover songs or samples\n",
+        "answer_strength": "unknown",
+        "latency_ms": 24448,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer (metadata language, release title, and comprehensive release-level and track-level metadata fields) and provides significantly more detail. The expected answer mentions these core elements and the agent covers them thoroughly."
+      },
+      {
+        "question_id": 8,
+        "question": "What happens when a DSP revenue line cannot be matched to any catalog item?",
+        "expected_answer": "Unmatched lines that fail to meet the match criteria appear as Unmatched in the report summary and require manual user action to resolve.",
+        "category": "edge_case",
+        "agent_answer": "\nWhen a DSP revenue line cannot be matched to any catalog item, it is **flagged as \"Unmatched\"** and requires manual user action to resolve. Here's what happens in detail:\n\n## What Triggers an Unmatched Line\nThe Matcher checks these fields in priority order to link a line to a catalog track: **ISRC > Track Title > Artist Name > Release Title**. If none of these sufficiently match an existing entry, the line is flagged.\n\n## Impact on Revenue\n**Unmatched lines still count toward total revenue** but remain flagged until properly associated with a track or marked as new. They won't generate accurate splits or payouts until resolved.\n\n## How to Resolve an Unmatched Line\nUsers have three options:\n\n1. **Match to an existing catalog entry** \u2014 Select a fuzzy-match suggestion or manually search by name, ISRC, or release.\n2. **Approve as a new track** \u2014 If the line represents a genuinely new track not in the catalog, approve it to create a new catalog entry with the line's metadata.\n3. **Reprocess** \u2014 If catalog metadata was recently updated, trigger a reprocess to let the system re-attempt automatic matching.\n\n## After Resolution\nOnce all lines in a report are matched or approved, the report can be **finalized (Approved)**, which then enables accurate royalty generation and payouts to payees.\n\n> **Tip:** If the ISRC is blank or incorrect in the DSP report, Revelator falls back to track title and artist name for matching. Updating the ISRC in your catalog and reprocessing is the recommended fix.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 14489,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer correctly identifies that unmatched lines are flagged as 'Unmatched' and require manual user action to resolve, which matches the key information in the expected answer. The agent provides additional detail about how matching works, resolution options, and impact on revenue, but these are supplementary details that don't contradict the expected answer."
+      },
+      {
+        "question_id": 9,
+        "question": "Can Revelator handle video content management?",
+        "expected_answer": "Yes, Revelator has a Video Management module that allows users to manage video assets and their associated metadata.",
+        "category": "edge_case",
+        "agent_answer": "\nYes, Revelator does handle video content management, though with some important distinctions. Here's what's supported:\n\n## Video Management Module\nRevelator includes a **Video Management module** (accessible via the Catalog menu) that allows users to manage video assets and their associated metadata. Key capabilities include:\n\n- **Metadata management** \u2013 Organize video data including Title, Artist, Label, UPC, Video ISRC, and Creation Date\n- **Rights management** \u2013 Handle Master and YouTube Channel/Video rights, create contracts, and set up payees for royalty distribution\n- **Analytics** \u2013 View performance trends (last 7 days), revenue trends (past 6 months), and geographic data per video\n\n> \u26a0\ufe0f **Important limitation**: The Video Management module is **metadata-only** \u2014 it does **not** support video file uploads or video file distribution.\n\n## YouTube Channel & MCN Management\nRevelator also offers a dedicated **YouTube MCN and Channel Management** module, which enables:\n\n- Connecting YouTube CMS via MCN\n- Auto-importing channels and videos\n- Monitoring monetization, views, and engagement\n- Assigning channel ownership and permissions\n- Filtering to identify underperforming assets or monetization gaps\n\nThis is particularly suited for **enterprises, MCN operators, music distributors, and labels** managing multiple YouTube channels.\n\n**In summary**: Revelator supports video *metadata management*, *rights/contracts*, *analytics*, and *YouTube channel monetization* \u2014 but is not a video file hosting or delivery platform.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 17725,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer correctly confirms that Revelator has a Video Management module that allows users to manage video assets and their associated metadata, which matches the key information in the expected answer. The agent provides additional details beyond what's required, but the core information is accurate and present."
+      },
+      {
+        "question_id": 10,
+        "question": "What should I do if my catalog delivery history is incomplete?",
+        "expected_answer": "You should forward your delivery history to the Revelator onboarding team. This is important because many distributors need to know where the catalog has been delivered before to ensure successful migration.",
+        "category": "edge_case",
+        "agent_answer": "\n\nIf your catalog delivery history is incomplete, here's what you should do:\n\n## 1. Request It From Your Previous Distributor\nMany distributors can provide delivery history on request or from within your dashboard. Contact them directly and ask for an export.\n\n## 2. Ensure the Export Includes the Minimum Required Fields\nYour delivery history export must include at least:\n- **UPC**\n- **Service/DSP name**\n- **Release status** (live or not live)\n\n## 3. For UGC DSPs (if applicable)\nIf you were previously using your **own deal** for UGC DSPs (e.g., Facebook/Meta, YouTube, ByteDance), you'll also need to provide:\n- **Ineligible Content Report** from Facebook/Meta\n- **Invalid Reference Report** from YouTube\n- **Violative Content Report** from ByteDance\n\n## 4. Contact Revelator Support if Needed\nFor any questions about bringing your catalog from a previous distributor, you can reach out to **support@revelator.com**. Revelator cannot always liaise with your previous distributor directly, but can provide guidance.\n\n> **Tip:** Your Customer Success Manager is also a key point of contact for migration questions \u2014 share any delivery status information with them along the way.\n\n```json\n{\n  \"answer_strength\": \"strong\",\n  \"sources\": [\n    {\"title\": \"Distributing your catalogue to the Stores\", \"source_system\": \"GitBook\"},\n    {\"title\": \"Delivering your Catalog\", \"source_system\": \"GitBook\"},\n    {\"title\": \"Ingesting Your Catalog\", \"source_system\": \"GitBook\"}\n  ]\n}\n```\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 22715,
+        "error": null,
+        "score": 1,
+        "judge_reason": "The agent's answer contains some relevant information (mentioning Revelator support and Customer Success Manager) but misses the key point from the expected answer: that you should forward your delivery history to the Revelator onboarding team. The expected answer emphasizes that distributors need to know where the catalog has been delivered before to ensure successful migration, while the agent focuses more on how to obtain the delivery history from the previous distributor rather than what to do with it once you have it."
+      },
+      {
+        "question_id": 11,
+        "question": "How do I get paid?",
+        "expected_answer": "Revelator offers multiple payment mechanisms: the Revelator Wallet allows daily payments in stable coins with on-chain royalty collection, and traditional royalty statements can be approved and processed for payouts through the standard approval workflow.",
+        "category": "ambiguous",
+        "agent_answer": "\nHere's how you get paid on Revelator:\n\n## 1. Set Up Your Payout Preferences\nFirst, configure your payment method in your account settings:\n- Go to **Account \u2192 Payout Preferences**\n- Select whether you are an incorporated company or unincorporated individual\n- Enter your legal name, email, and applicable Tax ID / VAT / Vendor ID\n- Choose your preferred payment method:\n  - **PayPal** \u2013 enter the email for the PayPal account to be funded *(note: not available in all countries)*\n  - **Direct bank transfer**\n\n## 2. Payment Methods Available\nRevelator supports multiple payout providers:\n- **PayPal** \u2013 most common method; requires a pre-funded PayPal account\n- **Tipalti** \u2013 for integrated direct payouts; both payor and payee must complete Tipalti connection\n- **Original Works** \u2013 another supported provider\n\n## 3. For Payees (Receiving Payment)\nYour label/distributor admin will:\n1. Approve your royalty statements\n2. Review your balance in the **Royalties \u2192 Payments** screen\n3. Execute payment via your chosen provider\n\nPayments can take **up to 24 hours** to complete and appear in your transaction history.\n\n## 4. Revelator Wallet (USDC)\nIf using the Revelator Wallet, royalties are paid automatically in **USDC** based on your royalty split percentage, and can be withdrawn directly to your bank account.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 24495,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer covers both key payment mechanisms mentioned in the expected answer: the Revelator Wallet with USDC (stable coin) payments, and the traditional royalty statement approval workflow for payouts. The agent provides additional detail about PayPal, Tipalti, and setup steps, but the core information aligns with the expected answer."
+      },
+      {
+        "question_id": 12,
+        "question": "Tell me about onboarding",
+        "expected_answer": "Revelator onboarding covers email authentication setup, catalog migration with delivery history, API integration setup, and customization options. The onboarding process includes working with the Revelator team to configure your account and migrate your catalog.",
+        "category": "ambiguous",
+        "agent_answer": "\n\n## Onboarding at Revelator\n\nHere's an overview of the onboarding process at Revelator:\n\n### 1. Getting Started\nWhen a new customer signs up, they begin by filling out an **onboarding form** so Revelator can gather the necessary information to set up their account. Once submitted, a link to the new Revelator account is emailed to the customer.\n\n### 2. Revelator Pro Onboarding\nThe full onboarding experience for **Revelator Pro** covers:\n- **Catalog ingestion & migration** \u2013 Importing or migrating your catalog from previous distributors (e.g., FUGA, CI, AudioSalad)\n- **Supply chain activation** \u2013 Setting up and configuring your distribution pipeline\n- **Rights & reporting data ingestion**\n- **Royalty splits configuration**\n- **White label branding setup** (DNS records, branding elements, distribution deals)\n\n### 3. DSP Data Onboarding\nDSP data onboarding begins on the **Revelator Pro platform**, where data is ingested and migrated to a customer-discrete **Snowflake data warehouse** for aggregation, insights, and predictions.\n\n### 4. Catalog Migration\nMigrating a catalog is a structured process involving:\n- Agreeing on a file exchange method (cloud resource or FTP via DDEX-compliant packages)\n- Running a test delivery to validate package structure\n- Mapping assets to the correct accounts\n- Processing and confirming successful ingestion\n\n> **Note:** Catalog migration is **included in the onboarding fee**. Additional imports beyond onboarding are subject to separate pricing.\n\n### 5. API Onboarding\nFor customers using the **Revelator API**, onboarding focuses on the **Parent-Child Account Structure**, supporting business models ranging from self-releasing artists to large-scale distributors managing multiple sub-labels.\n\n### 6. White Label Onboarding Checklist\nFor white label customers, the onboarding process includes:\n- Account configurations (self-service)\n- Catalog ingestion\n- Supply chain setup\n- Royalty contracts & payments\n- Automated email sequences guiding customers through each step\n\n---\n\nFor any questions during onboarding, reach out to your **Revelator Support contact**.\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 22560,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer covers all key points from the expected answer: email authentication setup (mentioned in automated email sequences), catalog migration with delivery history (detailed catalog migration section), API integration setup (API onboarding section), and customization options (white label branding setup). The agent also mentions working with the Revelator team to configure accounts. The answer contains additional detail beyond the expected answer, but all core information is present."
+      },
+      {
+        "question_id": 13,
+        "question": "What billing integrations does Revelator support?",
+        "expected_answer": "Revelator has a payment service API that supports card payments via Stripe, purchase events, and transaction management. The billing system handles customer payments, payment methods, and transaction tracking.",
+        "category": "validation",
+        "agent_answer": "\nRevelator supports the following **billing/payment integrations**:\n\n## Payment Providers\n- **PayPal** \u2014 for executing payouts to payees\n- **Tipalti** \u2014 a fully integrated payment solution; both the payor and payees must complete their Tipalti connection and set it as their payment preference before payments can be sent\n- **Original Works** \u2014 an additional supported payment provider\n\n## How It Works\nAll payment integrations are managed through the **Royalties > Ready to Pay** screen in Revelator Pro, where you can:\n- Review outstanding payee balances\n- Filter by payment provider, account status, and thresholds\n- Execute payouts via any of the supported providers\n- Export balances or transaction history as CSV for finance/compliance purposes\n",
+        "answer_strength": "unknown",
+        "latency_ms": 26208,
+        "error": null,
+        "score": 0,
+        "judge_reason": "The agent's answer focuses on payout providers (PayPal, Tipalti, Original Works) for royalty payments, while the expected answer describes billing integrations including Stripe for card payments, purchase events, and transaction management via a payment service API. The agent's answer does not mention Stripe or the billing/payment service API described in the expected answer, and instead provides information about a different aspect of Revelator's payment system."
+      },
+      {
+        "question_id": 14,
+        "question": "What content delivery integrations does Revelator have?",
+        "expected_answer": "Revelator has integrations with major aggregators and content providers including FUGA, CI, Audiosalad, and Sonosuite among others for catalog delivery.",
+        "category": "validation",
+        "agent_answer": "\nRevelator has content delivery integrations across several categories:\n\n## Catalog Ingestion (Getting Content INTO Revelator)\n\n**Supply Chain / Aggregator Partners (DDEX):**\n- **FUGA** \u2013 Set up a contract in your FUGA account to deliver to Revelator via a designated filepath\n- **CI (Consolidated Independent)** \u2013 Request a feed to REE from CI; Revelator creates a folder to accept delivery\n- **AudioSalad** \u2013 Contact your AudioSalad Account Manager to open a feed to Revelator\n- **Sonosuite** \u2013 Listed as an additional catalog migration option\n\n**Other Ingestion Methods:**\n- **DDEX-compliant packages** via SFTP/AWS\n- **Spreadsheet/Google Sheets import** (metadata + audio/cover art)\n- **Revelator Pro UI** (guided during onboarding)\n- **Revelator API** (for API customers)\n- **FTP** (delivery.revelator.com, port 221)\n\n---\n\n## DSP Distribution (Delivering Content OUT to Stores)\n\nRevelator distributes to all major DSPs, including:\n- iTunes / Apple Music\n- Spotify\n- Amazon\n- YouTube Music\n- Pandora\n- Tidal\n- Deezer\n- Shazam\n- **20+ additional DSPs**\n\n---\n\n## Reporting Integrations (Daily Trends & Sales Reports)\n\nRevelator supports automated digital sales reporting and Daily Trends for:\n- iTunes / iTunes Match / Apple Music\n- Spotify (Bulk API)\n- Deezer\n- Amazon\n- SoundCloud\n- **Merlin** (for Merlin members)\n\n---\n\n## Payment Integrations\n\n- **PayPal**\n- **Tipalti**\n\n---\n\nTo connect any of these, navigate to **Account > Integrations** in the Revelator platform and filter by category (Distribution, Reporting, Payments, Marketing, Mastering). Note that for DSP distribution integrations, you must have a direct deal with the DSP.\n",
+        "answer_strength": "unknown",
+        "latency_ms": 30660,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer - it mentions FUGA, CI, Audiosalad, and Sonosuite as catalog delivery integrations, and provides additional detailed context about other integration types. The core information matches the expected answer completely."
+      },
+      {
+        "question_id": 15,
+        "question": "What is the current stock price of Universal Music Group?",
+        "expected_answer": "This question is outside the scope of Revelator documentation. The knowledge base covers Revelator products, processes, and policies only.",
+        "category": "out_of_scope",
+        "agent_answer": "\nThe current stock price of Universal Music Group is **not available** in Revelator's internal knowledge base. This knowledge base covers Revelator's products, processes, and policies (e.g., music distribution, royalties, DSPs, billing, onboarding) \u2014 it does not contain financial market data.\n\nFor UMG's current stock price, please check a financial resource such as:\n- [Bloomberg](https://www.bloomberg.com)\n- [Yahoo Finance](https://finance.yahoo.com)\n- [Google Finance](https://www.google.com/finance) (search: **UMG.AS** on Euronext Amsterdam)\n",
+        "answer_strength": "unknown",
+        "latency_ms": 11125,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent correctly identifies that the question is outside the scope of Revelator's knowledge base, which covers only Revelator products, processes, and policies. The agent's answer aligns with the expected answer's key point about scope limitation, even though it provides additional helpful context about where to find the information."
+      },
+      {
+        "question_id": 16,
+        "question": "Can you help me write a Python script to scrape Spotify?",
+        "expected_answer": "This question is outside the scope of Revelator documentation. The knowledge base only covers Revelator internal documentation and processes.",
+        "category": "out_of_scope",
+        "agent_answer": "\nI'm **RevSearch**, Revelator's internal knowledge assistant \u2014 I'm scoped to questions about Revelator's products, processes, and policies (music distribution, royalties, DSP integrations, billing, onboarding, etc.).\n\nWriting a Python script to scrape Spotify falls outside my domain for two reasons:\n\n1. **Out of scope**: This is not a Revelator internal process or product question.\n2. **Terms of Service concern**: Scraping Spotify is prohibited by [Spotify's Terms of Service](https://www.spotify.com/legal/end-user-agreement/). If you need Spotify data programmatically, Spotify provides an **official Web API** at [developer.spotify.com](https://developer.spotify.com/).\n\nIf you have a question related to **Revelator's Spotify integration**, such as Spotify Artist URIs, the Spotify Preferred Provider Program (PPP), or how Revelator delivers content to Spotify, I'm happy to help with that!\n",
+        "answer_strength": "unknown",
+        "latency_ms": 10383,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent correctly identifies the question as out of scope for Revelator's knowledge base, which matches the expected answer. The agent goes slightly beyond by explaining why (ToS concerns) and offering to help with Revelator-specific Spotify integration questions, but the core message aligns with the expected answer."
+      },
+      {
+        "question_id": 17,
+        "question": "What is Revelator Studio and how does it relate to NFTs?",
+        "expected_answer": "Creator Studio (Revelator Studio) offers customers web3 products for creating and managing digital assets such as NFTs, on-chain royalty payments, and tokenizing royalty flows from streaming music content. The first project being rolled out is the Revelator NFT service.",
+        "category": "complex",
+        "agent_answer": "\n\n```json\n{\n  \"answer\": \"**Revelator Studio (Creator Studio)** is a suite of web3 products offered within the Revelator platform that enables creation and management of digital assets. [Source: What is Revelator Studio?] It is currently in **early beta** and available to select customers on-demand. The Creator Studio product suite includes:\\n\\n- **NFT creation & management** \u2014 the first and primary feature being rolled out\\n- **On-chain royalty payments**\\n- **Royalty tokenization** \u2014 converting streaming music royalty flows into automated blockchain payments via the Original Works protocol, enabling accelerated payments, greater artist transparency, and the ability to unlock advances\\n\\n---\\n\\n## How Creator Studio Relates to NFTs\\n\\nThe **first project** launched under Creator Studio is the **Revelator NFT service** [Source: What is Revelator Studio?]. Here's how it works:\\n\\n- **Who can use it**: Any enterprise Revelator account (or Revelator Pro account) with the NFT feature enabled [Source: What are Revelator NFTs]\\n- **What can be minted**: Audio, images, and video as digital collectibles \u2014 single editions (1 unique copy) or multiple copies using the **EIP1155 standard**\\n- **Storage**: All media and metadata are stored on **IPFS** and are immutable once minted\\n- **Payment**: Buyers can purchase with a **web3 wallet** (Polygon or Base) or via **major credit card** (settled via Stripe)\\n- **Primary sales proceeds** are collected in the account, with a 30-day holding period for credit card purchases before fiat cash-out\\n- **Secondary sales royalties** (from resales on platforms like OpenSea or Rarible) can be defined at the time of minting\\n- **Storefront**: Each account gets its own customer-facing NFT storefront\\n\\n---\\n\\n## Future Plans\\n\\nRevelator plans to add **automated primary and secondary sale payment flows**, allowing labels and management companies to predefine royalty splits to creators and collaborators directly within the immutable NFT contract data. Additional utilities such as fan rewards, perks, and exclusive event access are also planned. [Source: What are Revelator NFTs]\",\n  \"answer_strength\": \"strong\",\n  \"sources\": [\n    {\"title\": \"What is Revelator Studio?\", \"source_system\": \"GitBook\", \"relevance_note\": \"Directly defines Creator Studio and its relation to NFTs\"},\n    {\"title\": \"What are Revelator NFTs\", \"source_system\": \"GitBook\", \"relevance_note\": \"Details NFT features, minting, payments, and secondary sales\"},\n    {\"title\": \"Introduction\", \"source_system\": \"GitBook\", \"relevance_note\": \"Mission statement and overview of NFT service in Revelator Pro\"}\n  ],\n  \"knowledge_owner\": {\"needed\": false, \"primary_owner\": null, \"backup_owner\": null, \"reason\": \"Fully covered by documentation\"},\n  \"related_questions\": [\"How do I access and enable NFT features on my Revelator account?\", \"How are secondary sales royalties configured when minting an NFT?\", \"What is the Revelator Wallet and how does it support web3 payments?\"]\n}\n```\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 20696,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains all key information from the expected answer: Creator Studio (Revelator Studio) offers web3 products for creating and managing digital assets including NFTs, on-chain royalty payments, and tokenizing royalty flows from streaming music content. It also correctly identifies that the first project being rolled out is the Revelator NFT service. The agent provides additional detail beyond the expected answer, but all core points are covered accurately."
+      },
+      {
+        "question_id": 18,
+        "question": "Explain the music metadata style guide rules about album art",
+        "expected_answer": "Album art may NOT use third-party trademarks without permission, including digital partners or social media logos. Album art may NOT use celebrity or character likenesses or images without permission.",
+        "category": "complex",
+        "agent_answer": "\n\n```json\n{\n  \"answer\": \"The Revelator Music Metadata Style Guide outlines the following rules for album art:\\n\\n**Content Requirements**\\n- Must include the album title and artist name, clearly identifiable [Source: Music Metadata Style Guide]\\n- Compilation albums (more than 4 artists) do NOT need to display the artist's name\\n- No other text should be more prominent than the album title and artist name\\n- Album title on the metadata must match the cover art EXACTLY [Source: Music Metadata Style Guide]\\n\\n**Technical Specifications**\\n- File format: JPG/JPEG only\\n- Color space: RGB\\n- Recommended size: 3000\u00d73000 pixels (minimum accepted: 1400\u00d71400 px)\\n- Must be a square image (equal width and height)\\n- Maximum: 50 megapixels or 10 MB\\n- Must fill the entire canvas corner-to-corner; do not fill blank space to reach correct size\\n\\n**Prohibited Content**\\n- No pixelated, stretched, upscaled, or low-resolution images\\n- No extra or incorrect text\\n- No third-party trademarks or logos without permission (including DSP or social media logos)\\n- No celebrity or character likenesses without permission\\n- No social media icons (social media links in text are acceptable if those sites don't sell your music in competition with your stores)\\n- No sexually explicit imagery (defined as: nothing between the viewer's line-of-sight and the subject's nipples or genitals)\\n- No website addresses or contact information\\n- Art must not be misleading or display another artist's name more prominently\\n\\n**General Guidance**\\n- When in doubt, create original artwork rather than altering someone else's image [Source: Music Metadata Style Guide]\",\n  \"answer_strength\": \"strong\",\n  \"sources\": [\n    {\"title\": \"Music Metadata Style Guide\", \"source_system\": \"GitBook\", \"relevance_note\": \"Primary source covering all artwork rules in detail\"},\n    {\"title\": \"Metadata Styleguide\", \"source_system\": \"GitBook\", \"relevance_note\": \"Additional/complementary style guide with overlapping artwork rules\"}\n  ]\n}\n```\n\nHere is a breakdown of the **Album Art rules** from Revelator's Music Metadata Style Guide:\n\n---\n\n## \ud83d\udcd0 Technical Specifications\n\n- **File format**: JPG/JPEG only\n- **Color space**: RGB\n- **Recommended size**: 3000\u00d73000 px (minimum accepted: 1400\u00d71400 px)\n- Must be a **square image** (equal width and height)\n- Maximum: **50 megapixels** or **10 MB**\n- Must **fill the entire canvas** corner-to-corner; do NOT pad blank space to reach the correct size\n\n---\n\n## \ud83d\uddbc\ufe0f Content Requirements\n\n- Must display the **album title and artist name**, clearly identifiable\n- **Compilation albums** (more than 4 artists) do not need to display the artist's name\n- No other text should be **more prominent** than the album title and artist name\n- The album title in metadata must **match the cover art exactly**\n\n---\n\n## \ud83d\udeab Prohibited Content\n\n- No **pixelated, stretched, upscaled**, or low-resolution images\n- No **extra or incorrect text**\n- No **third-party trademarks or logos** (including DSP or social media logos) without permission\n- No **celebrity or character likenesses** without permission\n- No **social media icons** (social media *links* are acceptable provided those sites don't compete with your stores)\n- No **sexually explicit imagery** \u2014 defined as: nothing between the viewer's line-of-sight and the subject's nipples or genitals\n- No **website addresses, contact information**, or misleading content\n\n---\n\n## \ud83d\udca1 General Guidance\n\nWhen in doubt, **create original artwork from scratch** rather than altering someone else's image.\n\n",
+        "answer_strength": "unknown",
+        "latency_ms": 27015,
+        "error": null,
+        "score": 2,
+        "judge_reason": "The agent's answer contains both key points from the expected answer: (1) no third-party trademarks without permission, including digital partners or social media logos, and (2) no celebrity or character likenesses or images without permission. The agent also provides extensive additional detail about technical specifications and other requirements, but the core expected information is clearly present."
+      }
+    ],
+    "by_category": {
+      "core": {
+        "total": 7,
+        "correct": 7,
+        "partial": 0,
+        "incorrect": 0
+      },
+      "edge_case": {
+        "total": 3,
+        "correct": 2,
+        "partial": 1,
+        "incorrect": 0
+      },
+      "ambiguous": {
+        "total": 2,
+        "correct": 2,
+        "partial": 0,
+        "incorrect": 0
+      },
+      "validation": {
+        "total": 2,
+        "correct": 1,
+        "partial": 0,
+        "incorrect": 1
+      },
+      "out_of_scope": {
+        "total": 2,
+        "correct": 2,
+        "partial": 0,
+        "incorrect": 0
+      },
+      "complex": {
+        "total": 2,
+        "correct": 2,
+        "partial": 0,
+        "incorrect": 0
+      }
+    }
+  }
+]

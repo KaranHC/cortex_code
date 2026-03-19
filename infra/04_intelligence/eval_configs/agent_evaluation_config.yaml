@@ -1,0 +1,22 @@
+dataset:
+  dataset_type: "cortex agent"
+  table_name: "SNOWFLAKE_INTELLIGENCE.AGENTS.NATIVE_EVAL_DATASET"
+  dataset_name: "KNOWLEDGE_ASSISTANT_eval_ds_20260316_v2"
+  column_mapping:
+    query_text: "INPUT_QUERY"
+    ground_truth: "OUTPUT"
+
+evaluation:
+  agent_params:
+    agent_name: "SNOWFLAKE_INTELLIGENCE.AGENTS.KNOWLEDGE_ASSISTANT"
+    agent_type: "CORTEX AGENT"
+  run_params:
+    label: "evaluation"
+    description: "Baseline evaluation of primary KNOWLEDGE_ASSISTANT agent with 69 questions"
+  source_metadata:
+    type: "dataset"
+    dataset_name: "KNOWLEDGE_ASSISTANT_eval_ds_20260316_v2"
+
+metrics:
+  - "answer_correctness"
+  - "logical_consistency"

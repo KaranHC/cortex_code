@@ -1,0 +1,129 @@
+dataset:
+  dataset_type: "cortex agent"
+  table_name: "SNOWFLAKE_INTELLIGENCE.AGENTS.NATIVE_EVAL_DATASET"
+  dataset_name: "KNOWLEDGE_ASSISTANT_FALLBACK_2_eval_ds_20260318_v3"
+  column_mapping:
+    query_text: "INPUT_QUERY"
+    ground_truth: "OUTPUT"
+
+evaluation:
+  agent_params:
+    agent_name: "SNOWFLAKE_INTELLIGENCE.AGENTS.KNOWLEDGE_ASSISTANT_FALLBACK_2"
+    agent_type: "CORTEX AGENT"
+  run_params:
+    label: "evaluation"
+    description: "Evaluation of KNOWLEDGE_ASSISTANT_FALLBACK_2 agent with 69 questions, 2 system + 6 custom metrics"
+  source_metadata:
+    type: "dataset"
+    dataset_name: "KNOWLEDGE_ASSISTANT_FALLBACK_2_eval_ds_20260318_v3"
+
+metrics:
+  - "answer_correctness"
+  - name: "logical_consistency"
+    prompt: >
+      Evaluate the logical consistency of the agent's response. The response may be
+      in markdown format with headings, bullet points, and citations. Check whether:
+      - The response directly addresses the question asked
+      - Claims within the response do not contradict each other
+      - The flow of information is logically coherent (premises lead to conclusions)
+      - If multiple sources are cited, the information from them is reconciled consistently
+      - The response does not make a claim in one section and contradict it in another
+
+      Scoring:
+      1.0 = Fully consistent, no contradictions, logical flow throughout
+      0.7 = Mostly consistent with minor logical gaps
+      0.3 = Contains contradictions or significant logical leaps
+      0.0 = Internally contradictory or incoherent
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "source_grounding"
+    prompt: >
+      Evaluate whether the agent's response cites specific source documents.
+      A well-grounded response should include [Source: Document Title] or similar
+      citations for factual claims. Check that cited sources are plausible
+      (not fabricated URLs or document names).
+
+      Scoring:
+      1.0 = Every factual claim has a citation and citations appear valid
+      0.7 = Most claims cited but some uncited assertions
+      0.3 = Few or no citations despite factual claims
+      0.0 = No citations at all or citations appear fabricated
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "hallucination_check"
+    prompt: >
+      Evaluate whether the agent's response contains fabricated information
+      that contradicts the ground truth or adds claims not supported by any
+      search results. Look for:
+      - Invented URLs or document titles
+      - Specific numbers/dates/names not in the ground truth
+      - Confident claims about features that don't exist
+      - Answering out-of-scope questions instead of refusing
+
+      Scoring:
+      1.0 = No hallucination detected, all claims appear grounded
+      0.5 = Minor embellishments but core facts are correct
+      0.0 = Contains fabricated information or fails to refuse out-of-scope question
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "response_structure_quality"
+    prompt: >
+      Evaluate the structural quality of the agent's markdown response. A well-structured
+      response should: use clear headings or bullet points for organization, present
+      information in a logical flow, separate distinct topics or steps, be easy to
+      scan and read.
+
+      Scoring:
+      1.0 = Well-organized with clear structure (headings, bullets, numbered steps)
+      0.7 = Mostly organized but some sections could be better structured
+      0.3 = Minimal structure, mostly wall-of-text
+      0.0 = Completely unstructured or incoherent
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "answer_confidence_calibration"
+    prompt: >
+      Evaluate whether the agent's response confidence matches the actual quality of
+      the answer. Look at the agent's tone and hedging language:
+
+      - If the answer is correct and well-supported by search results, the agent should sound confident
+      - If the answer is partial or the agent is unsure, it should use hedging language
+      - If the question is out-of-scope, the agent should clearly state it cannot help rather than guessing
+      - If the agent sounds very confident but the answer is wrong, that is the WORST case
+
+      Scoring:
+      1.0 = Confidence tone matches actual answer quality
+      0.5 = Slightly over-confident or under-confident
+      0.0 = Grossly miscalibrated (e.g., confident but wrong, or hedging on a correct answer)
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "negative_constraint_compliance"
+    prompt: >
+      Evaluate whether the agent properly handles out-of-scope or unanswerable questions.
+      For questions that are outside the Revelator business domain or cannot be answered
+      from the knowledge base:
+
+      - Agent should NOT fabricate an answer
+      - Agent should clearly state it cannot help or doesn't have the information
+      - Agent should suggest contacting a knowledge owner or rephrasing
+      - Agent should NOT answer from training data
+
+      For in-scope questions, this metric should score 1.0 (not applicable).
+
+      Scoring:
+      1.0 = Correctly handles boundaries (refuses OOS, answers in-scope)
+      0.5 = Partially correct (hedges but still provides some fabricated info)
+      0.0 = Violates negative constraints (answers OOS confidently, fabricates)
+    scoring_criteria:
+      scale: [0, 1]
+  - name: "query_expansion_evidence"
+    prompt: >
+      Evaluate whether the agent appears to have searched multiple times with
+      different query formulations, as evidenced by citing diverse source documents
+      or mentioning multiple search attempts in its response.
+
+      Scoring:
+      1.0 = Evidence of multiple searches (diverse sources cited, mentions searching with different terms)
+      0.5 = Some diversity in sources but may have been single search
+      0.0 = Only single narrow source or no evidence of expanded search
+    scoring_criteria:
+      scale: [0, 1]
