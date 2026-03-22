@@ -135,7 +135,7 @@ def chunk_text(text, title=None, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
         chunk = prefix + chunk.strip() if prefix else chunk.strip()
         if chunk:
             chunks.append(chunk)
-        start = end - overlap
+        start = max(end - overlap, start + 1)
     chunks = merge_tiny_chunks(chunks)
     return chunks
 
@@ -213,7 +213,7 @@ def process_gitbook(session):
     for row in gb:
         doc_id = make_id("gitbook", row["PAGE_ID"])
         content = row["CONTENT_MARKDOWN"] or ""
-        if not content.strip() or len(content.strip()) < 50:
+        if not content.strip() or len(content.strip()) < MIN_CHUNK_CHARS:
             continue
         title = row["TITLE"] or "Untitled"
         source_url = row["PATH"] if row["PATH"] else ""
@@ -238,7 +238,7 @@ def process_freshdesk(session):
         title = row["TITLE"] or "Untitled"
         description = row["DESCRIPTION_TEXT"] or ""
         content = f"{title}\n\n{description}".strip()
-        if not content or len(content.strip()) < 50:
+        if not content or len(content.strip()) < MIN_CHUNK_CHARS:
             continue
         doc_id = make_id("freshdesk", "article", row["ID"])
         source_url = f"https://support.freshdesk.com/a/solutions/articles/{row['ID']}"
@@ -259,7 +259,7 @@ def process_freshdesk(session):
         subject = row["SUBJECT"] or "Untitled Ticket"
         body = row["BODY_TEXT"] or ""
         content = f"{subject}\n\n{body}".strip()
-        if not content or len(content.strip()) < 50:
+        if not content or len(content.strip()) < MIN_CHUNK_CHARS:
             continue
         doc_id = make_id("freshdesk", "conversation", row["CONV_ID"])
         source_url = f"https://support.freshdesk.com/a/tickets/{row['TICKET_ID']}"
@@ -281,7 +281,7 @@ def process_freshdesk(session):
         topic_title = row["TOPIC_TITLE"] or "Untitled Discussion"
         body = row["BODY_TEXT"] or ""
         content = f"{topic_title}\n\n{body}".strip()
-        if not content or len(content.strip()) < 50:
+        if not content or len(content.strip()) < MIN_CHUNK_CHARS:
             continue
         doc_id = make_id("freshdesk", "discussion", row["COMMENT_ID"])
         source_url = f"https://support.freshdesk.com/a/discussions/topics/{row['TOPIC_ID']}"

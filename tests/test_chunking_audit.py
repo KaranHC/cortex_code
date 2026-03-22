@@ -126,7 +126,7 @@ def chunk_text(text, title=None, chunk_size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
         chunk = prefix + chunk.strip() if prefix else chunk.strip()
         if chunk:
             chunks.append(chunk)
-        start = end - overlap
+        start = max(end - overlap, start + 1)
     chunks = merge_tiny_chunks(chunks)
     return chunks
 

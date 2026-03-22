@@ -8,5 +8,5 @@ AS (
     SELECT content, title, team, topic, product_area, source_system, owner, backup_owner,
            last_updated, document_id, chunk_id, source_url, status, freshness_score
     FROM SNOWFLAKE_INTELLIGENCE.CURATED.DOCUMENT_CHUNKS
-    WHERE status = 'active' AND content IS NOT NULL AND LENGTH(content) > 50
+    WHERE status = 'active' AND content IS NOT NULL AND LENGTH(content) >= 200
 );
