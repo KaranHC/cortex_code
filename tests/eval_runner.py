@@ -587,11 +587,13 @@ def run_ragas(conn, results, model=RAGAS_MODEL, n_bootstrap=3):
                 conn, r["query"], r["answer"], r["sources"],
                 r["ground_truth"], model, n_bootstrap,
             )
+            def _fmt(v):
+                return f"{v:.2f}" if v is not None else "N/A"
             print(f"  [{i+1}/{len(results)}] RAGAS: "
-                  f"faith={ragas.get('faithfulness', 'N/A'):.2f} "
-                  f"rel={ragas.get('answer_relevance', 'N/A'):.2f} "
-                  f"recall={ragas.get('context_recall', 'N/A'):.2f} "
-                  f"ctx={ragas.get('context_relevance', 'N/A'):.2f}")
+                  f"faith={_fmt(ragas.get('faithfulness'))} "
+                  f"rel={_fmt(ragas.get('answer_relevance'))} "
+                  f"recall={_fmt(ragas.get('context_recall'))} "
+                  f"ctx={_fmt(ragas.get('context_relevance'))}")
         enriched.append({**r, **ragas})
     return enriched
 
